@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----- FONT STYLE LINK ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;900&display=swap"
+      rel="stylesheet" />
+    <!----- FONT AWESOME ICON LINK ----->
+    <script
+      src="https://kit.fontawesome.com/4c12ae0f73.js"
+      crossorigin="anonymous"></script>
+    <!----- IMAGE SLIDER LINK ----->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!----- SCROLLING EFFECT LINK ----->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!----- CSS LINK ----->
+    <link rel="stylesheet" href="contact.css" />
+    <title>Crest Harvest Services</title>
+  </head>
+  <body>
+    <!----- START OF CONTACT HEADER SECTION ----->
+    <section class="sub-header">
+      <nav>
+        <a href="#"><img src="images/logo.png" alt="image" /></a>
+        <div class="nav-link" id="navlinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="sub-text">
+        <h1>Contact</h1>
+      </div>
+    </section>
+    <!----- END OF CONTACT HEADER SECTION ----->
+
+    <!----- START OF LOCATION SECTION ----->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245949.5821016952!2d120.72347649434441!3d15.593667250214713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396d5deea06ddfd%3A0x5c0564c9c5550c3!2sCrest%20Harvest%20Enterprises!5e0!3m2!1sen!2sph!4v1666512689403!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  <!----- END OF LOCATION SECTION ----->
+
+    <!----- START OF CONTACT SECTION ----->
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                    <span>
+                        <h5>Purok 1 Mambarao, Sto. Domingo Nueva Ecija</h5>
+                        <p>Location</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>
+                        <h5>09123456789</h5>
+                        <p>Phone Number</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>crestharvest@gmail.com</h5>
+                        <p>Email Address
+                        </p>
+                    </span>
+                </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php"
+                    method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Type your Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!----- END OF CONTACT SECTION ----->
+
+    <!----- START OF FOOTER SECTION ----->
+    <footer>
+        <div class="main-content">
+          <div class="left box">
+            <h2>About us</h2>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia accusamus a at iusto doloribus quidem labore molestias sunt, exercitationem doloremque!</p>
+              <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100063953864437"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href=""><span class="fab fa-instagram"></span></a>
+                <a href=""><span class="fab fa-youtube"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+              <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text">Mambarao, Sto. Domingo N.E</span>
+              </div>
+              <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">+089-765432100</span>
+              </div>
+              <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">abc@example.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="right box">
+            <h2>Links</h2>
+            <div class="content">
+              <div>
+                <a href="index.html">Home</a>
+              </div>
+              <div>
+                <a href="about.html">About Us</a>
+              </div>
+              <div>
+                <a href="services.html">Services</a>
+              </div>
+              <div>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <center>
+            <span class="credit"> Copyright <span class="far fa-copyright"></span>2022 Crest Harvest Enterprises | All rights reserved</span>
+            <span>
+          </center>
+        </div>
+      </footer>
+      <!----- END OF FOOTER SECTION ----->
+
+      <!----- JAVASCRIPT ----->
+
+        <!----- START OF NAVIGATION JAVASCRIPT ----->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+          navlinks.style.right = "0";
+        }
+        function hideMenu() {
+          navlinks.style.right = "-200px";
+        }
+      </script>
+      <!----- END OF NAVIGATION JAVASCRIPT ----->
+
+       <!----- START OF SCROLLING EFFECT JAVASCRIPT ----->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+    <!----- END OF SCROLLING EFFECT JAVASCRIPT ----->
+  </body>
+</html>
